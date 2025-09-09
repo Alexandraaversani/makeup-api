@@ -7,7 +7,7 @@ export default function Home() {
         <div className="bg-white/80 backdrop-blur-lg rounded-3xl p-8 md:p-12 shadow-2xl ring-1 ring-black/5">
           <div className="flex flex-col items-center space-y-10">
             {/* Header Section */}
-                        <header className="flex flex-col items-center w-full">
+            <header className="flex flex-col items-center w-full">
               <div className="mb-8">
                 <Image 
                   src="/avatar.png" 
@@ -19,13 +19,13 @@ export default function Home() {
                 />
               </div>
               <div className="text-center space-y-3">
-                <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-violet-600 to-fuchsia-600 text-transparent bg-clip-text">
+                <h1 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-teal-400 to-emerald-300 text-transparent bg-clip-text">
                   Alexandra Cristina Aversani
                 </h1>
                 <p className="text-lg text-gray-600 tracking-wide">
                   Desenvolvimento de Sistemas 2
                 </p>
-                <p className="text-violet-600 font-medium">SENAI Valinhos</p>
+                <p className="text-emerald-600 font-medium">SENAI Valinhos</p>
               </div>
             </header>
 
@@ -36,8 +36,6 @@ export default function Home() {
               </p>
               <footer className="mt-2 text-gray-500">— Charles Chaplin</footer>
             </blockquote>
-
-
           </div>
         </div>
       </div>
